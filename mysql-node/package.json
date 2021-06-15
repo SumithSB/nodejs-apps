@@ -1,16 +1,19 @@
 {
-  "name": "mysql-node",
-  "version": "1.0.0",
-  "description": "MySql Node app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Sumith",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.2",
-    "mysql": "^2.18.1"
-  }
+    "name": "mysql-node",
+    "version": "1.0.0",
+    "description": "MySql Node app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sumith",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.2",
+        "jsonwebtoken": "^8.5.1",
+        "mysql2": "^2.2.5"
+    }
 }
